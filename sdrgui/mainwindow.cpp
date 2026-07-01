@@ -144,7 +144,7 @@ MainWindow::MainWindow(qtwebapp::LoggerWithFile *logger, const MainParser& parse
     QAccessible::installFactory(AccessibleValueDialZ::factory);
 
 	qDebug() << "MainWindow::MainWindow: start";
-    setWindowTitle("SDRangel");
+    setWindowTitle("SDRangel - SpectraRF Claudio Fabiani");
 
     QApplication::setOverrideCursor(Qt::WaitCursor);
 
